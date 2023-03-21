@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    <p> The sum of the numbers= <b><i id="sum"></i></b></p>
+    <p> The multiplication of the numbers= <b><i id="multiply"></i></b></p>
+    <p> The division of the numbers= <b><i id="divide"></i></b></p>
+    <p> The subtraction of the numbers= <b><i id="subtract"></i></b></p>
+    <p> The modulus of the numbers= <b><i id="modulus"></i></b></p>
+    <p> The exponential of the numbers= <b><i id="exponential"></i></b></p>
+
+
+
+    <script>
+      function sum(a,b){
+        let c=a+b;
+        return (c)
+    } 
+             
+      document.getElementById('sum').innerHTML=sum(5,6)
+      
+      function multiply(p,q){
+        let c=p*q;
+        return (c)
+      } 
+      document.getElementById('multiply').innerHTML=multiply(5,6)
+
+      function divide(x,y){
+        let z=y/x;
+        return (z)
+      } 
+      document.getElementById('divide').innerHTML=divide(40,10)
+
+      function subtract(k,p){
+        let w=k-p;
+        return (w)
+      } 
+      document.getElementById('subtract').innerHTML=subtract(100,6)
+      
+      function modulus(k,p){
+        let w=k%p;
+        return (w)
+      } 
+      document.getElementById('modulus').innerHTML=modulus(100,6)
+
+      function exponential(k,p){
+        let f=k**p;
+        return (k**p)
+      } 
+      document.getElementById('exponential').innerHTML=exponential(3,5)
+
+       
+        
+
+    
+
+        
+    </script>
+</body>
+</html>
